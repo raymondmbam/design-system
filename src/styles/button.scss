@@ -1,0 +1,41 @@
+// src/styles/button.scss
+@import './colorTokens';
+
+.btn {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  font-weight: $font-weight-bold;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: $white-color 0.3s ease;
+
+  &-primary {
+    background-color: $blue-500;
+    color: $white-color;
+
+    &:hover {
+      background-color: darken($blue-400, 10%);
+    }
+  }
+
+  &-secondary {
+    background-color: $blue-400;
+    color: $white-color;
+
+    &:hover {
+      background-color: darken($blue-300, 10%);
+    }
+  }
+
+  &-small {
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem;
+  }
+
+  &-large {
+    font-size: 1.25rem;
+    padding: 0.75rem 1.5rem;
+  }
+}
