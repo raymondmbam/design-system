@@ -1,5 +1,5 @@
 // Brand Color Tokens
-$blue-500: #2482AA;
+$blue-500: #2277AA;
 $blue-400: #2EA7DA;
 $blue-300: #76CFF5;
 $blue-200: #A1DEF8;
@@ -9,14 +9,19 @@ $neutral-400: #383838;
 $neutral-300: #717171;
 $neutral-200: #C7C7C7;
 $neutral-100: #E3E3E3;
+$neutral-50: #FAFAFA;
 $white-color: #FFFFFF;
 $success-500: #24A148;
 $warning-500: #FF832B;
 $error-500: #DA1E28;
 
-// Text Tokens
-$font-family-base: 'Arial, sans-serif';
-$font-size-base: 16px;
-$font-weight-normal: 400;
-$font-weight-bold: 700;
-$line-height-base: 1.5;
+// Text Color Tokens
+$text-primary: $neutral-500;
+$text-secondary: $neutral-300;
+$text-placeholder: $neutral-200;
+$text-on-color: $white-color;
+$text-error: $error-500;
+
+//Background Color Tokens
+$background-default: $white-color;
+$background-100: $neutral-50;

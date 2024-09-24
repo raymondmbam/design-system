@@ -9,7 +9,7 @@ const path = require('path');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Sushine Design System by Raymond Mbam',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
